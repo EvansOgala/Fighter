@@ -1,0 +1,149 @@
+<!-- Hikou no mizu locale file format, see en.xml for details -->
+<?xml version="1.0" encoding="utf-8" ?>
+<locale author="Duncan Deveaux" license="GPL-3.0">
+    <entry key="menu_play">Jouer</entry>
+    <entry key="menu_versus">Versus</entry>
+    <entry key="menu_multiplayer">Multijoueur</entry>
+    <entry key="menu_options">Options</entry>
+    <entry key="menu_exit">Quitter</entry>
+    <entry key="menu_2players">2 Joueurs</entry>
+    <entry key="menu_3players">3 Joueurs</entry>
+    <entry key="menu_4players">4 Joueurs</entry>
+    <entry key="menu_5players">5 Joueurs</entry>
+    <entry key="menu_6players">6 Joueurs</entry>
+    <entry key="menu_singleround">Manche unique</entry>
+    <entry key="menu_2rounds">2 Manches</entry>
+    <entry key="menu_3rounds">3 Manches</entry>
+    <entry key="menu_4rounds">4 Manches</entry>
+    <entry key="menu_5rounds">5 Manches</entry>
+    <entry key="header_back">&lt; Retour</entry>
+    <entry key="character_selection_title">Choix des combattants</entry>
+    <entry key="character_selection_subtitle">Choisis les personnages qui vont combattre !</entry>
+    <entry key="character_selection_no_name">?</entry>
+    <entry key="character_selection_ai_name:{name}">{name} (IA)</entry>
+    <entry key="arena_selection_title">Choix de l'arène</entry>
+    <entry key="arena_selection_subtitle">Choisis l'arène du combat !</entry>
+    <entry key="arena_selection_validate">Valider</entry>
+    <entry key="client_lobby_title">Multijoueur réseau</entry>
+    <entry key="client_lobby_subtitle">Choisis ton personnage et connecte-toi à un jeu en réseau !</entry>
+    <entry key="client_lobby_address">adresse</entry>
+    <entry key="client_lobby_port">port</entry>
+    <entry key="client_lobby_username">identifiant</entry>
+    <entry key="client_lobby_connect">Connexion</entry>
+    <entry key="client_lobby_connecting">En attente du serveur...</entry>
+    <entry key="client_lobby_unresolvable">Adresse introuvable</entry>
+    <entry key="dialog_ok">Valider</entry>
+    <entry key="dialog_cancel">Annuler</entry>
+    <entry key="kicked_connection_lost">Connexion perdue</entry>
+    <entry key="kicked_version_mismatch">Versions client et serveur incompatibles</entry>
+    <entry key="kicked_server_is_full">Le serveur est complet</entry>
+    <entry key="kicked_server_no_character">Le personnage demandé est inconnu par le serveur</entry>
+    <entry key="kicked_inactivity">Déconnexion pour inactivité</entry>
+    <entry key="kicked_illegal_command">Commande interdite</entry>
+    <entry key="kicked_unintelligible_by_server">Paquet inattendu envoyé au serveur</entry>
+    <entry key="kicked_unintelligible_by_client">Paquet inattendu reçu par le client</entry>
+    <entry key="kicked_connection_timeout">Temps de connexion maximal écoulé</entry>
+    <entry key="kicked_client_no_arena">Arène inconnue envoyée par le serveur</entry>
+    <entry key="kicked_client_no_character">Personnage inconnu envoyé par le serveur</entry>
+    <entry key="kicked_client_decision">Décision client</entry>
+    <entry key="kicked_enet_error">Erreur ENet</entry>
+    <entry key="kicked_unknown_reason">Raison inconnue</entry>
+    <entry key="options_title">Options</entry>
+    <entry key="options_subtitle">Paramètres de jeu et contrôles</entry>
+    <entry key="options_general">Général</entry>
+    <entry key="options_controls">Contrôles</entry>
+    <entry key="options_display">Affichage</entry>
+    <entry key="options_refresh_rate">Rafraîchissement</entry>
+    <entry key="options_audio">Audio</entry>
+    <entry key="options_locale">Langue</entry>
+    <entry key="options_miscellaneous">Autres</entry>
+    <entry key="options_display_mode">Fenêtrage :</entry>
+    <entry key="options_display_mode_fullscreen_borderless">Plein écran (simulé)</entry>
+    <entry key="options_display_mode_fullscreen_native">Plein écran (natif)</entry>
+    <entry key="options_display_mode_windowed">Fenêtré</entry>
+    <entry key="options_display_resolution">Résolution :</entry>
+    <entry key="options_display_revert_to_default">Réinitialiser</entry>
+    <entry key="options_display_apply">Appliquer</entry>
+    <entry key="options_display_applied_at_next_restart">Changements appliqués au prochain lancement</entry>
+    <entry key="options_refresh_rate_vertical_sync">Synchronisation verticale :</entry>
+    <entry key="options_refresh_rate_frames_per_second">Images par seconde :</entry>
+    <entry key="options_audio_master">Volume global :</entry>
+    <entry key="options_audio_music">Musique :</entry>
+    <entry key="options_audio_ambient">Ambiance :</entry>
+    <entry key="options_audio_sound_effects">Effets sonores :</entry>
+    <entry key="options_locale_language">Langue :</entry>
+    <entry key="options_dynamic_camera">Caméra dynamique :</entry>
+    <entry key="options_shaking_camera">Caméra tremblante :</entry>
+    <entry key="options_show_frame_rate">Compteur de FPS :</entry>
+    <entry key="options_show_hitboxes">Boîtes de collision :</entry>
+    <entry key="options_controls_binder_id:{binder_id}">Contrôles joueur {binder_id}</entry>
+    <entry key="options_controls_active_device">Périphérique actif :</entry>
+    <entry key="options_controls_reset_joystick">Réinitaliser les contrôles</entry>
+    <entry key="options_controls_keyboard">Clavier</entry>
+    <entry key="options_controls_punch">Poing :</entry>
+    <entry key="options_controls_kick">Pied :</entry>
+    <entry key="options_controls_block">Bloquer :</entry>
+    <entry key="options_controls_throw">Lancer :</entry>
+    <entry key="options_controls_jump">Sauter :</entry>
+    <entry key="options_controls_move_left">À gauche :</entry>
+    <entry key="options_controls_move_right">À droite :</entry>
+    <entry key="options_controls_crouch">Se baisser :</entry>
+    <entry key="key_joy_button:{button_id}">Bouton {button_id}</entry>
+    <entry key="key_joy_axis_negative:{axis_id}">Stick {axis_id} : -</entry>
+    <entry key="key_joy_axis_positive:{axis_id}">Stick {axis_id} : +</entry>
+    <entry key="key_joy_hat_up:{hat_id}">D-pad {hat_id} : Haut</entry>
+    <entry key="key_joy_hat_down:{hat_id}">D-pad {hat_id} : Bas</entry>
+    <entry key="key_joy_hat_left:{hat_id}">D-pad {hat_id} : Gauche</entry>
+    <entry key="key_joy_hat_right:{hat_id}">D-pad {hat_id} : Droite</entry>
+    <entry key="key_arrow_up">Haut</entry>
+    <entry key="key_arrow_down">Bas</entry>
+    <entry key="key_arrow_left">Gauche</entry>
+    <entry key="key_arrow_right">Droite</entry>
+    <entry key="key_spacebar">Espace</entry>
+    <entry key="key_backspace">Retour arrière</entry>
+    <entry key="key_return">Entrée</entry>
+    <entry key="banner_perfect_block">Blocage parfait</entry>
+    <entry key="fps_counter_value:{fps}">FPS : {fps}</entry>
+    <entry key="round_announcer_ready">PRÊT</entry>
+    <entry key="round_announcer_numbered_round:{round_id}">MANCHE {round_id}</entry>
+    <entry key="round_announcer_final_round">DERNIÈRE MANCHE</entry>
+    <entry key="round_announcer_fight">COMBAT</entry>
+    <entry key="round_result_draw_game">Égalité !</entry>
+    <entry key="round_result_networked_winner:{username}">{username} gagne !</entry>
+    <entry key="round_result_local_winner:{name},{player_id}">{name} (#{player_id}) gagne !</entry>
+    <entry key="local_game_pause_title">Pause</entry>
+    <entry key="local_game_pause_restart">Recommencer</entry>
+    <entry key="local_game_end_replay">Rejouer</entry>
+    <entry key="networked_game_pause_title">Jeu réseau</entry>
+    <entry key="networked_game_pause_disconnect">Déconnexion</entry>
+    <entry key="pause_resume">Continuer</entry>
+    <entry key="pause_to_main_menu">Menu principal</entry>
+    <entry key="peer_info_character">Personnage</entry>
+    <entry key="peer_info_username">Identifiant</entry>
+    <entry key="peer_info_ping">Ping</entry>
+    <entry key="peer_info_spectators">Spectateurs</entry>
+    <entry key="server_event_game_scheduled">Une nouvelle partie est sur le point de commencer...</entry>
+    <entry key="server_event_matchmaking_stack">Joueurs réaffectés par ordre de connexion</entry>
+    <entry key="server_event_matchmaking_random">Joueurs réaffectés au hasard</entry>
+    <entry key="server_event_matchmaking_challenger">Joueurs réaffectés au hasard pour défier le vainqueur</entry>
+    <entry key="server_event_peer_joined:{peer}">{peer} a rejoint la partie</entry>
+    <entry key="server_event_peer_left:{peer}">{peer} a quitté la partie</entry>
+    <entry key="server_event_peer_kicked_for_inactivity:{peer}">{peer} a quitté la partie pour inactivité</entry>
+
+<entry key="server_event_rules_versus:{player_count},{rounds_to_win}">
+Règles : Mode de jeu versus, {player_count} joueurs, {rounds_to_win} manches par match
+</entry>
+
+<entry key="server_event_rules_versus:{player_count},{rounds_to_win}" rounds_to_win="1">
+Règles : Mode de jeu versus, {player_count} joueurs, manches uniques
+</entry>
+
+<entry key="server_event_rules_default:{player_count},{rounds_to_win}">
+Règles : Mode de jeu par défaut, {player_count} joueurs, {rounds_to_win} manches par match
+</entry>
+
+<entry key="server_event_rules_default:{player_count},{rounds_to_win}" rounds_to_win="1">
+Règles : Mode de jeu par défaut, {player_count} joueurs, manches uniques
+</entry>
+
+</locale>

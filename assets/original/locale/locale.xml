@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+    <locale code="en" name="English" />
+    <locale code="es" name="Español" />
+    <locale code="eo" name="Esperanto" />
+    <locale code="fr" name="Français" />
+    <locale code="no" name="Norsk">
+        <covers code="nb" /> <!--Bokmål-->
+        <covers code="nn" /> <!--Nynorsk-->
+    </locale>
+</main>

@@ -1,0 +1,149 @@
+<!-- Hikou no mizu locale file format, see en.xml for details -->
+<?xml version="1.0" encoding="utf-8" ?>
+<locale author="Jorge Maldonado Ventura" license="GPL-3.0">
+    <entry key="menu_play">Ludi</entry>
+    <entry key="menu_versus">1 kontraŭ 1</entry>
+    <entry key="menu_multiplayer">Rete</entry>
+    <entry key="menu_options">Agordoj</entry>
+    <entry key="menu_exit">Eliri</entry>
+    <entry key="menu_2players">2 ludantoj</entry>
+    <entry key="menu_3players">3 ludantoj</entry>
+    <entry key="menu_4players">4 ludantoj</entry>
+    <entry key="menu_5players">5 ludantoj</entry>
+    <entry key="menu_6players">6 ludantoj</entry>
+    <entry key="menu_singleround">Unu lukto</entry>
+    <entry key="menu_2rounds">Ĝis venki 2 luktojn</entry>
+    <entry key="menu_3rounds">Ĝis venki 3 luktojn</entry>
+    <entry key="menu_4rounds">Ĝis venki 4 luktojn</entry>
+    <entry key="menu_5rounds">Ĝis venki 5 luktojn</entry>
+    <entry key="header_back">&lt; Reen</entry>
+    <entry key="character_selection_title">Elekto de roluloj</entry>
+    <entry key="character_selection_subtitle">Elektu la luktontajn rolulojn!</entry>
+    <entry key="character_selection_no_name">?</entry>
+    <entry key="character_selection_ai_name:{name}">{name} - AI</entry>
+    <entry key="arena_selection_title">Arena elekto</entry>
+    <entry key="arena_selection_subtitle">Elektu la arenon, kie la lukto okazos!</entry>
+    <entry key="arena_selection_validate">Elekti</entry>
+    <entry key="client_lobby_title">Interreta ludo</entry>
+    <entry key="client_lobby_subtitle">Elektu vian rolulon kaj konektu vim al reta ludo!</entry>
+    <entry key="client_lobby_address">adreso</entry>
+    <entry key="client_lobby_port">pordo</entry>
+    <entry key="client_lobby_username">uzantnomo</entry>
+    <entry key="client_lobby_connect">Konekti</entry>
+    <entry key="client_lobby_connecting">Konektante...</entry>
+    <entry key="client_lobby_unresolvable">Ne eblis trovi la adreson</entry>
+    <entry key="dialog_ok">Bone</entry>
+    <entry key="dialog_cancel">Nuligi</entry>
+    <entry key="kicked_connection_lost">Konekto perdita</entry>
+    <entry key="kicked_version_mismatch">Nekongruaj versioj de kliento kaj servo</entry>
+    <entry key="kicked_server_is_full">La servilo estas plena</entry>
+    <entry key="kicked_server_no_character">Petita signo ne subtenata de la servilo</entry>
+    <entry key="kicked_inactivity">Malkonektis pro neaktiveco</entry>
+    <entry key="kicked_illegal_command">Malpermesita komando</entry>
+    <entry key="kicked_unintelligible_by_server">La servilo malsukcesis interpreti pakaĵon</entry>
+    <entry key="kicked_unintelligible_by_client">Ne eblis interpreti servilan pakaĵon</entry>
+    <entry key="kicked_connection_timeout">Tempolimo de konekto</entry>
+    <entry key="kicked_client_no_arena">Nesubtenata areno sendita de la servilo</entry>
+    <entry key="kicked_client_no_character">Nesubtenata rolulo sendita de la servilo</entry>
+    <entry key="kicked_client_decision">Decidita de la kliento</entry>
+    <entry key="kicked_enet_error">ENet-eraro</entry>
+    <entry key="kicked_unknown_reason">Nekonata kialo</entry>
+    <entry key="options_title">Agordoj</entry>
+    <entry key="options_subtitle">Ŝanĝi ludajn parametrojn kaj klavkombinojn!</entry>
+    <entry key="options_general">Ĝeneralaj</entry>
+    <entry key="options_controls">Regiloj</entry>
+    <entry key="options_display">Ekrano</entry>
+    <entry key="options_refresh_rate">Ofteco de aktualigo</entry>
+    <entry key="options_audio">Aŭdaĵoj</entry>
+    <entry key="options_locale">Lingvo</entry>
+    <entry key="options_miscellaneous">Diversa</entry>
+    <entry key="options_display_mode">Ekrana reĝimo:</entry>
+    <entry key="options_display_mode_fullscreen_borderless">Plena ekrano (senlima)</entry>
+    <entry key="options_display_mode_fullscreen_native">Plena ekrano (loka)</entry>
+    <entry key="options_display_mode_windowed">Kun fenestro</entry>
+    <entry key="options_display_resolution">Distingivo:</entry>
+    <entry key="options_display_revert_to_default">Reimplicitigi</entry>
+    <entry key="options_display_apply">Ĝisdatigi ekranon</entry>
+    <entry key="options_display_applied_at_next_restart">Ŝanĝoj estos aplikitaj dum restartigo</entry>
+    <entry key="options_refresh_rate_vertical_sync">Vertikala sinkronigo:</entry>
+    <entry key="options_refresh_rate_frames_per_second">Bildrapido:</entry>
+    <entry key="options_audio_master">Ĉefa laŭteco:</entry>
+    <entry key="options_audio_music">Muzika laŭteco:</entry>
+    <entry key="options_audio_ambient">Laŭteco de media muziko:</entry>
+    <entry key="options_audio_sound_effects">Sona laŭteco:</entry>
+    <entry key="options_locale_language">Lingvo:</entry>
+    <entry key="options_dynamic_camera">Dinamika kamerao:</entry>
+    <entry key="options_shaking_camera">Skuado de kamerao:</entry>
+    <entry key="options_show_frame_rate">Montri nombron de bildoj po sekundo:</entry>
+    <entry key="options_show_hitboxes">Montri bat-skatolojn:</entry>
+    <entry key="options_controls_binder_id:{binder_id}">Klavkombinilo de la #{binder_id}-1 ludanto</entry>
+    <entry key="options_controls_active_device">Aktiva videoluda aparato:</entry>
+    <entry key="options_controls_reset_joystick">Restarigi la klavojn de la ludregilo</entry>
+    <entry key="options_controls_keyboard">Klavaro</entry>
+    <entry key="options_controls_punch">Pugni:</entry>
+    <entry key="options_controls_kick">Piedbati:</entry>
+    <entry key="options_controls_block">Bloki:</entry>
+    <entry key="options_controls_throw">Armilo:</entry>
+    <entry key="options_controls_jump">Salti:</entry>
+    <entry key="options_controls_move_left">Moviĝi maldekstren:</entry>
+    <entry key="options_controls_move_right">Moviĝi dekstren:</entry>
+    <entry key="options_controls_crouch">Kaŭri:</entry>
+    <entry key="key_joy_button:{button_id}">Butono {button_id}</entry>
+    <entry key="key_joy_axis_negative:{axis_id}">Akso {axis_id}: -</entry>
+    <entry key="key_joy_axis_positive:{axis_id}">Akso {axis_id}: +</entry>
+    <entry key="key_joy_hat_up:{hat_id}">Direkta butono {hat_id}: Supre</entry>
+    <entry key="key_joy_hat_down:{hat_id}">Direkta butono {hat_id}: Malsupre</entry>
+    <entry key="key_joy_hat_left:{hat_id}">Direkta butono {hat_id}: Maldekstre</entry>
+    <entry key="key_joy_hat_right:{hat_id}">Direkta butono {hat_id}: Dekstre</entry>
+    <entry key="key_arrow_up">Supre</entry>
+    <entry key="key_arrow_down">Malsupre</entry>
+    <entry key="key_arrow_left">Maldekstre</entry>
+    <entry key="key_arrow_right">Dekstre</entry>
+    <entry key="key_spacebar">Spacoklavo</entry>
+    <entry key="key_backspace">Reen-klavo</entry>
+    <entry key="key_return">Eniga klavo</entry>
+    <entry key="banner_perfect_block">Perfekta bloko</entry>
+    <entry key="fps_counter_value:{fps}">Bildoj po sekundo: {fps}</entry>
+    <entry key="round_announcer_ready">PRETIĜU</entry>
+    <entry key="round_announcer_numbered_round:{round_id}">{round_id}-a LUKTO</entry>
+    <entry key="round_announcer_final_round">FINA LUKTO</entry>
+    <entry key="round_announcer_fight">LUKTU</entry>
+    <entry key="round_result_draw_game">Nedecidita ludo!</entry>
+    <entry key="round_result_networked_winner:{username}">{username} venkis!</entry>
+    <entry key="round_result_local_winner:{name},{player_id}">{name} (#{player_id}) venkis!</entry>
+    <entry key="local_game_pause_title">Paŭzigita</entry>
+    <entry key="local_game_pause_restart">Rekomenci</entry>
+    <entry key="local_game_end_replay">Reludado</entry>
+    <entry key="networked_game_pause_title">Reta ludo</entry>
+    <entry key="networked_game_pause_disconnect">Malkonekti</entry>
+    <entry key="pause_resume">Reen</entry>
+    <entry key="pause_to_main_menu">Ĉefa menuo</entry>
+    <entry key="peer_info_character">Rolulo</entry>
+    <entry key="peer_info_username">Uzantnomo</entry>
+    <entry key="peer_info_ping">Eĥosondo</entry>
+    <entry key="peer_info_spectators">Spektantoj</entry>
+    <entry key="server_event_game_scheduled">Nova ludo baldaŭ komenciĝos...</entry>
+    <entry key="server_event_matchmaking_stack">Ludantoj reaperis laŭ konekta tempo</entry>
+    <entry key="server_event_matchmaking_random">Ludantoj hazarde reaperis</entry>
+    <entry key="server_event_matchmaking_challenger">Ludantoj hazarde reaperis por defii la venkiston</entry>
+    <entry key="server_event_peer_joined:{peer}">{peer} aliĝis al la ludo</entry>
+    <entry key="server_event_peer_left:{peer}">{peer} foriris el la ludo</entry>
+    <entry key="server_event_peer_kicked_for_inactivity:{peer}">{peer} estis elĵetita pro neaktiveco</entry>
+
+<entry key="server_event_rules_versus:{player_count},{rounds_to_win}">
+Reguloj: 1 kontraŭ 1, {player_count} ludantoj, ĝis venki {rounds_to_win} luktoj
+</entry>
+
+<entry key="server_event_rules_versus:{player_count},{rounds_to_win}" rounds_to_win="1">
+Reguloj: 1 kontraŭ 1, {player_count} ludantoj, ludoj de unu lukto
+</entry>
+
+<entry key="server_event_rules_default:{player_count},{rounds_to_win}">
+Reguloj: Implicita reĝimo, {player_count} ludantoj, ĝis venki {rounds_to_win} luktoj
+</entry>
+
+<entry key="server_event_rules_default:{player_count},{rounds_to_win}" rounds_to_win="1">
+Reguloj: Implicita reĝimo, {player_count} ludantoj, ludoj de unu lukto
+</entry>
+
+</locale>

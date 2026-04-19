@@ -1,0 +1,206 @@
+<!--
+Hikou no mizu locale file format:
+ * <entry key="translation_key">translation</entry>
+
+Variable translations
+---------------------
+Entries may include variables to be included in the translation.
+By convention, all the variables available for an entry
+are listed at the end of the key name:
+
+ * <entry key="translation_key:{variable1},{variable2}">
+Example translation with {variable2} and {variable}
+</entry>
+
+{variable} will then be replaced in-game by the relevant value.
+
+Context-dependent translations
+------------------------------
+In case the translation depends on the context, specific translations may be
+provided for specific variable values:
+
+ * <entry key="translation_key:{variable1},{variable2}">
+A default translation must always be provided first
+</entry>
+
+ * <entry key="translation_key:{variable1},{variable2}" rounds_count="1">
+Specific translation for cases when [rounds_count = 1]
+</entry>
+
+Precedence rules
+----------------
+The selected translation will be the translation with, in decreasing priority:
+ - The most number of matching specified variables
+ - The least number of unmatched specified variables
+ - The highest entry in the list
+
+For example, provided three rules, declared in this order:
+ (default: <entry key="translation_key:{variable1},{variable2}">...</entry>)
+  A: <entry key="translation_key:{variable1},{variable2}" variable2="16">...</entry>
+  B: <entry key="translation_key:{variable1},{variable2}" variable1="8" variable2="16">...</entry>
+  C: <entry key="translation_key:{variable1},{variable2}" variable1="8">...</entry>
+
+* B will be selected for variable1 = 8 and variable2 = 16
+* A will be selected for variable1 != 8 and variable2 = 16
+* C will be selected for variable1 = 8 and variable2 != 16
+* The default translation will be selected for variable1 != 8 and variable2 != 16
+
+If only A and C are listed, as follows:
+ (default: <entry key="translation_key:{variable1},{variable2}">...</entry>)
+  A: <entry key="translation_key:{variable1},{variable2}" variable2="16">...</entry>
+  C: <entry key="translation_key:{variable1},{variable2}" variable1="8">...</entry>
+
+In the case where variable1 = 8 and variable2 = 16,
+A and C cannot be prioritized based on the number of matches (one each),
+nor the number of unmatched rules (0 each).
+In turn, the first listed translation, i.e., translation A, will be selected.
+-->
+
+<?xml version="1.0" encoding="utf-8" ?>
+<locale author="Duncan Deveaux" license="GPL-3.0">
+    <entry key="menu_play">Play</entry>
+    <entry key="menu_versus">Versus</entry>
+    <entry key="menu_multiplayer">Multiplayer</entry>
+    <entry key="menu_options">Options</entry>
+    <entry key="menu_exit">Exit</entry>
+    <entry key="menu_2players">2 Players</entry>
+    <entry key="menu_3players">3 Players</entry>
+    <entry key="menu_4players">4 Players</entry>
+    <entry key="menu_5players">5 Players</entry>
+    <entry key="menu_6players">6 Players</entry>
+    <entry key="menu_singleround">Single Round</entry>
+    <entry key="menu_2rounds">2 Rounds to win</entry>
+    <entry key="menu_3rounds">3 Rounds to win</entry>
+    <entry key="menu_4rounds">4 Rounds to win</entry>
+    <entry key="menu_5rounds">5 Rounds to win</entry>
+    <entry key="header_back">&lt; Back</entry>
+    <entry key="character_selection_title">Characters selection</entry>
+    <entry key="character_selection_subtitle">Select the characters that will be fighting!</entry>
+    <entry key="character_selection_no_name">?</entry>
+    <entry key="character_selection_ai_name:{name}">{name} - AI</entry>
+    <entry key="arena_selection_title">Arena selection</entry>
+    <entry key="arena_selection_subtitle">Select the arena where the fight will take place!</entry>
+    <entry key="arena_selection_validate">Select</entry>
+    <entry key="client_lobby_title">Multiplayer game</entry>
+    <entry key="client_lobby_subtitle">Select your character and connect to a networked game!</entry>
+    <entry key="client_lobby_address">address</entry>
+    <entry key="client_lobby_port">port</entry>
+    <entry key="client_lobby_username">username</entry>
+    <entry key="client_lobby_connect">Connect</entry>
+    <entry key="client_lobby_connecting">Connecting...</entry>
+    <entry key="client_lobby_unresolvable">Could not resolve address</entry>
+    <entry key="dialog_ok">OK</entry>
+    <entry key="dialog_cancel">Cancel</entry>
+    <entry key="kicked_connection_lost">Connection lost</entry>
+    <entry key="kicked_version_mismatch">Incompatible client and server versions</entry>
+    <entry key="kicked_server_is_full">The server is full</entry>
+    <entry key="kicked_server_no_character">Requested character unsupported by server</entry>
+    <entry key="kicked_inactivity">Disconnected for inactivity</entry>
+    <entry key="kicked_illegal_command">Illegal command</entry>
+    <entry key="kicked_unintelligible_by_server">The server failed to interpret a packet</entry>
+    <entry key="kicked_unintelligible_by_client">Could not interpret a server packet</entry>
+    <entry key="kicked_connection_timeout">Connection timeout</entry>
+    <entry key="kicked_client_no_arena">Unsupported arena sent by server</entry>
+    <entry key="kicked_client_no_character">Unsupported character sent by server</entry>
+    <entry key="kicked_client_decision">Decided by client</entry>
+    <entry key="kicked_enet_error">ENet error</entry>
+    <entry key="kicked_unknown_reason">Unknown reason</entry>
+    <entry key="options_title">Options</entry>
+    <entry key="options_subtitle">Change game parameters and key bindings!</entry>
+    <entry key="options_general">General</entry>
+    <entry key="options_controls">Controls</entry>
+    <entry key="options_display">Display</entry>
+    <entry key="options_refresh_rate">Refresh rate</entry>
+    <entry key="options_audio">Audio</entry>
+    <entry key="options_locale">Locale</entry>
+    <entry key="options_miscellaneous">Miscellaneous</entry>
+    <entry key="options_display_mode">Display mode:</entry>
+    <entry key="options_display_mode_fullscreen_borderless">Fullscreen (Borderless)</entry>
+    <entry key="options_display_mode_fullscreen_native">Fullscreen (Native)</entry>
+    <entry key="options_display_mode_windowed">Windowed</entry>
+    <entry key="options_display_resolution">Resolution:</entry>
+    <entry key="options_display_revert_to_default">Revert to Default</entry>
+    <entry key="options_display_apply">Update Display</entry>
+    <entry key="options_display_applied_at_next_restart">Changes will be applied on restart</entry>
+    <entry key="options_refresh_rate_vertical_sync">Vertical synchronization:</entry>
+    <entry key="options_refresh_rate_frames_per_second">Frame rate:</entry>
+    <entry key="options_audio_master">Master Volume:</entry>
+    <entry key="options_audio_music">Music Volume:</entry>
+    <entry key="options_audio_ambient">Ambient Volume:</entry>
+    <entry key="options_audio_sound_effects">Effects Volume:</entry>
+    <entry key="options_locale_language">Language:</entry>
+    <entry key="options_dynamic_camera">Dynamic Camera:</entry>
+    <entry key="options_shaking_camera">Camera shaking:</entry>
+    <entry key="options_show_frame_rate">Show FPS counter:</entry>
+    <entry key="options_show_hitboxes">Show Hitboxes:</entry>
+    <entry key="options_controls_binder_id:{binder_id}">Player #{binder_id} key binder</entry>
+    <entry key="options_controls_active_device">Active gaming device:</entry>
+    <entry key="options_controls_reset_joystick">Reset game controller keys</entry>
+    <entry key="options_controls_keyboard">Keyboard</entry>
+    <entry key="options_controls_punch">Punch:</entry>
+    <entry key="options_controls_kick">Kick:</entry>
+    <entry key="options_controls_block">Block:</entry>
+    <entry key="options_controls_throw">Weapon:</entry>
+    <entry key="options_controls_jump">Jump:</entry>
+    <entry key="options_controls_move_left">Move left:</entry>
+    <entry key="options_controls_move_right">Move right:</entry>
+    <entry key="options_controls_crouch">Crouch:</entry>
+    <entry key="key_joy_button:{button_id}">Button {button_id}</entry>
+    <entry key="key_joy_axis_negative:{axis_id}">Axis {axis_id}: -</entry>
+    <entry key="key_joy_axis_positive:{axis_id}">Axis {axis_id}: +</entry>
+    <entry key="key_joy_hat_up:{hat_id}">POV Hat {hat_id}: Up</entry>
+    <entry key="key_joy_hat_down:{hat_id}">POV Hat {hat_id}: Down</entry>
+    <entry key="key_joy_hat_left:{hat_id}">POV Hat {hat_id}: Left</entry>
+    <entry key="key_joy_hat_right:{hat_id}">POV Hat {hat_id}: Right</entry>
+    <entry key="key_arrow_up">Up</entry>
+    <entry key="key_arrow_down">Down</entry>
+    <entry key="key_arrow_left">Left</entry>
+    <entry key="key_arrow_right">Right</entry>
+    <entry key="key_spacebar">Space bar</entry>
+    <entry key="key_backspace">Backspace</entry>
+    <entry key="key_return">Return</entry>
+    <entry key="banner_perfect_block">Perfect block</entry>
+    <entry key="fps_counter_value:{fps}">FPS: {fps}</entry>
+    <entry key="round_announcer_ready">READY</entry>
+    <entry key="round_announcer_numbered_round:{round_id}">ROUND {round_id}</entry>
+    <entry key="round_announcer_final_round">FINAL ROUND</entry>
+    <entry key="round_announcer_fight">FIGHT</entry>
+    <entry key="round_result_draw_game">Draw game!</entry>
+    <entry key="round_result_networked_winner:{username}">{username} wins!</entry>
+    <entry key="round_result_local_winner:{name},{player_id}">{name} (#{player_id}) wins!</entry>
+    <entry key="local_game_pause_title">Pause</entry>
+    <entry key="local_game_pause_restart">Restart</entry>
+    <entry key="local_game_end_replay">Replay</entry>
+    <entry key="networked_game_pause_title">Networked game</entry>
+    <entry key="networked_game_pause_disconnect">Disconnect</entry>
+    <entry key="pause_resume">Resume</entry>
+    <entry key="pause_to_main_menu">Main Menu</entry>
+    <entry key="peer_info_character">Character</entry>
+    <entry key="peer_info_username">Username</entry>
+    <entry key="peer_info_ping">Ping</entry>
+    <entry key="peer_info_spectators">Spectators</entry>
+    <entry key="server_event_game_scheduled">A new game is about to start...</entry>
+    <entry key="server_event_matchmaking_stack">Players respawned by connection time</entry>
+    <entry key="server_event_matchmaking_random">Players respawned randomly</entry>
+    <entry key="server_event_matchmaking_challenger">Players respawned randomly to challenge the winner</entry>
+    <entry key="server_event_peer_joined:{peer}">{peer} joined the game</entry>
+    <entry key="server_event_peer_left:{peer}">{peer} left the game</entry>
+    <entry key="server_event_peer_kicked_for_inactivity:{peer}">{peer} was kicked for inactivity</entry>
+
+<entry key="server_event_rules_versus:{player_count},{rounds_to_win}">
+Rules: Versus mode, {player_count} players, {rounds_to_win} rounds to win
+</entry>
+
+<entry key="server_event_rules_versus:{player_count},{rounds_to_win}" rounds_to_win="1">
+Rules: Versus mode, {player_count} players, single round games
+</entry>
+
+<entry key="server_event_rules_default:{player_count},{rounds_to_win}">
+Rules: Default mode, {player_count} players, {rounds_to_win} rounds to win
+</entry>
+
+<entry key="server_event_rules_default:{player_count},{rounds_to_win}" rounds_to_win="1">
+Rules: Default mode, {player_count} players, single round games
+</entry>
+
+</locale>

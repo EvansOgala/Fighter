@@ -1,0 +1,149 @@
+<!-- Hikou no mizu locale file format, see en.xml for details -->
+<?xml version="1.0" encoding="utf-8" ?>
+<locale author="Jorge Maldonado Ventura" license="GPL-3.0">
+    <entry key="menu_play">Jugar</entry>
+    <entry key="menu_versus">Versus</entry>
+    <entry key="menu_multiplayer">Multijugador</entry>
+    <entry key="menu_options">Opciones</entry>
+    <entry key="menu_exit">Salir</entry>
+    <entry key="menu_2players">2 jugadores</entry>
+    <entry key="menu_3players">3 jugadores</entry>
+    <entry key="menu_4players">4 jugadores</entry>
+    <entry key="menu_5players">5 jugadores</entry>
+    <entry key="menu_6players">6 jugadores</entry>
+    <entry key="menu_singleround">Una ronda</entry>
+    <entry key="menu_2rounds">Hasta conseguir 2 victorias</entry>
+    <entry key="menu_3rounds">Hasta conseguir 3 victorias</entry>
+    <entry key="menu_4rounds">Hasta conseguir 4 victorias</entry>
+    <entry key="menu_5rounds">Hasta conseguir 5 victorias</entry>
+    <entry key="header_back">&lt; Atrás</entry>
+    <entry key="character_selection_title">Elección de personajes</entry>
+    <entry key="character_selection_subtitle">¡Elige los personajes que lucharán!</entry>
+    <entry key="character_selection_no_name">?</entry>
+    <entry key="character_selection_ai_name:{name}">{name} - IA</entry>
+    <entry key="arena_selection_title">Selección de arena</entry>
+    <entry key="arena_selection_subtitle">¡Selecciona la arena donde tendrá lugar el combate!</entry>
+    <entry key="arena_selection_validate">Seleccionar</entry>
+    <entry key="client_lobby_title">Juego multijugador</entry>
+    <entry key="client_lobby_subtitle">Elige tu personaje y ¡conéctate a un juego en línea!</entry>
+    <entry key="client_lobby_address">dirección</entry>
+    <entry key="client_lobby_port">puerto</entry>
+    <entry key="client_lobby_username">nombre_usuario</entry>
+    <entry key="client_lobby_connect">Conectar</entry>
+    <entry key="client_lobby_connecting">Conectando...</entry>
+    <entry key="client_lobby_unresolvable">No se pudo resolver dirección</entry>
+    <entry key="dialog_ok">Vale</entry>
+    <entry key="dialog_cancel">Cancelar</entry>
+    <entry key="kicked_connection_lost">Se fue la conexión</entry>
+    <entry key="kicked_version_mismatch">Versiones de cliente y servidor incompatibles</entry>
+    <entry key="kicked_server_is_full">El servidor está lleno</entry>
+    <entry key="kicked_server_no_character">Personaje solicitado no soportado por el servidor</entry>
+    <entry key="kicked_inactivity">Desconectado por inactividad</entry>
+    <entry key="kicked_illegal_command">Comando inválido</entry>
+    <entry key="kicked_unintelligible_by_server">El servidor falló al interpretar un paquete</entry>
+    <entry key="kicked_unintelligible_by_client">No se puedo interpretar un paquete del servidor</entry>
+    <entry key="kicked_connection_timeout">Límite de tiempo de conexión</entry>
+    <entry key="kicked_client_no_arena">Arena no soportada enviada por el servidor</entry>
+    <entry key="kicked_client_no_character">Personaje no soportado enviado por el servidor</entry>
+    <entry key="kicked_client_decision">Decidido por el cliente</entry>
+    <entry key="kicked_enet_error">Error ENet</entry>
+    <entry key="kicked_unknown_reason">Razón desconocida</entry>
+    <entry key="options_title">Opciones</entry>
+    <entry key="options_subtitle">¡Cambiar parámetros del juego y asociaciones de teclas!</entry>
+    <entry key="options_general">General</entry>
+    <entry key="options_controls">Controles</entry>
+    <entry key="options_display">Pantalla</entry>
+    <entry key="options_refresh_rate">Frecuencia de refrescar</entry>
+    <entry key="options_audio">Audio</entry>
+    <entry key="options_locale">Configuración de idioma</entry>
+    <entry key="options_miscellaneous">Varios</entry>
+    <entry key="options_display_mode">Modo de visualización:</entry>
+    <entry key="options_display_mode_fullscreen_borderless">Pantalla completa (sin límites)</entry>
+    <entry key="options_display_mode_fullscreen_native">Pantalla completa (nativamente)</entry>
+    <entry key="options_display_mode_windowed">Mostrando ventana</entry>
+    <entry key="options_display_resolution">Resolución:</entry>
+    <entry key="options_display_revert_to_default">Volver a predeterminado</entry>
+    <entry key="options_display_apply">Actualizar pantalla</entry>
+    <entry key="options_display_applied_at_next_restart">Los cambios se aplicarán al reiniciar</entry>
+    <entry key="options_refresh_rate_vertical_sync">Sincronización vertical:</entry>
+    <entry key="options_refresh_rate_frames_per_second">Tasa de fotogramas:</entry>
+    <entry key="options_audio_master">Volumen general:</entry>
+    <entry key="options_audio_music">Volumen de música:</entry>
+    <entry key="options_audio_ambient">Volumen de ambiente:</entry>
+    <entry key="options_audio_sound_effects">Volumen de efectos:</entry>
+    <entry key="options_locale_language">Idioma:</entry>
+    <entry key="options_dynamic_camera">Cámara dinámica:</entry>
+    <entry key="options_shaking_camera">Camera agitada:</entry>
+    <entry key="options_show_frame_rate">Mostrar contador de FPS:</entry>
+    <entry key="options_show_hitboxes">Mostrar cajas de colisiones:</entry>
+    <entry key="options_controls_binder_id:{binder_id}">Asociador de teclas de jugador #{binder_id}</entry>
+    <entry key="options_controls_active_device">Herramienta de juego activa:</entry>
+    <entry key="options_controls_reset_joystick">Restablecer teclas de controlador de juego</entry>
+    <entry key="options_controls_keyboard">Teclado</entry>
+    <entry key="options_controls_punch">Puñetazo:</entry>
+    <entry key="options_controls_kick">Patada:</entry>
+    <entry key="options_controls_block">Bloquear:</entry>
+    <entry key="options_controls_throw">Arma:</entry>
+    <entry key="options_controls_jump">Saltar:</entry>
+    <entry key="options_controls_move_left">Mover a izquierda:</entry>
+    <entry key="options_controls_move_right">Mover a derecha:</entry>
+    <entry key="options_controls_crouch">Agacharse:</entry>
+    <entry key="key_joy_button:{button_id}">Botón {button_id}</entry>
+    <entry key="key_joy_axis_negative:{axis_id}">Eje {axis_id}: -</entry>
+    <entry key="key_joy_axis_positive:{axis_id}">Eje {axis_id}: +</entry>
+    <entry key="key_joy_hat_up:{hat_id}">Botón direccional {hat_id}: Arriba</entry>
+    <entry key="key_joy_hat_down:{hat_id}">Botón direccional {hat_id}: Abajo</entry>
+    <entry key="key_joy_hat_left:{hat_id}">Botón direccional {hat_id}: Izquierda</entry>
+    <entry key="key_joy_hat_right:{hat_id}">Botón direccional {hat_id}: Derecha</entry>
+    <entry key="key_arrow_up">Arriba</entry>
+    <entry key="key_arrow_down">Abajo</entry>
+    <entry key="key_arrow_left">Izquierda</entry>
+    <entry key="key_arrow_right">Derecha</entry>
+    <entry key="key_spacebar">Barra espaciadora</entry>
+    <entry key="key_backspace">Retroceso</entry>
+    <entry key="key_return">Enter</entry>
+    <entry key="banner_perfect_block">Bloqueo perfecto</entry>
+    <entry key="fps_counter_value:{fps}">FPS: {fps}</entry>
+    <entry key="round_announcer_ready">LISTO</entry>
+    <entry key="round_announcer_numbered_round:{round_id}">RONDA {round_id}</entry>
+    <entry key="round_announcer_final_round">RONDA FINAL</entry>
+    <entry key="round_announcer_fight">A LUCHAR</entry>
+    <entry key="round_result_draw_game">¡Empate!</entry>
+    <entry key="round_result_networked_winner:{username}">¡{username} gana!</entry>
+    <entry key="round_result_local_winner:{name},{player_id}">¡{name} (#{player_id}) gana!</entry>
+    <entry key="local_game_pause_title">Pausa</entry>
+    <entry key="local_game_pause_restart">Reiniciar</entry>
+    <entry key="local_game_end_replay">Volver a jugar</entry>
+    <entry key="networked_game_pause_title">Juego en línea</entry>
+    <entry key="networked_game_pause_disconnect">Desconectarse</entry>
+    <entry key="pause_resume">Continuar</entry>
+    <entry key="pause_to_main_menu">Menú principal</entry>
+    <entry key="peer_info_character">Personaje</entry>
+    <entry key="peer_info_username">Nombre de usuario</entry>
+    <entry key="peer_info_ping">Ping</entry>
+    <entry key="peer_info_spectators">Espectadores</entry>
+    <entry key="server_event_game_scheduled">Una nueva partida está a punto de comenzar...</entry>
+    <entry key="server_event_matchmaking_stack">Los jugadores reaparecieron según el tiempo de conexión</entry>
+    <entry key="server_event_matchmaking_random">Los jugadores reaparecieron aleatoriamente</entry>
+    <entry key="server_event_matchmaking_challenger">Los jugadores reaparecieron aleatoriamente para desafiar al ganador</entry>
+    <entry key="server_event_peer_joined:{peer}">{peer} se unió al juego</entry>
+    <entry key="server_event_peer_left:{peer}">{peer} salió del juego</entry>
+    <entry key="server_event_peer_kicked_for_inactivity:{peer}">{peer} fue echado por inactividad</entry>
+
+<entry key="server_event_rules_versus:{player_count},{rounds_to_win}">
+Reglas: Modo versus, {player_count} jugadores, hasta conseguir {rounds_to_win} victorias
+</entry>
+
+<entry key="server_event_rules_versus:{player_count},{rounds_to_win}" rounds_to_win="1">
+Reclas: Modo versus, {player_count} jugadores, partidas de una ronda
+</entry>
+
+<entry key="server_event_rules_default:{player_count},{rounds_to_win}">
+Reglas: Modo estándar, {player_count} jugadores, hasta conseguir {rounds_to_win} victorias
+</entry>
+
+<entry key="server_event_rules_default:{player_count},{rounds_to_win}" rounds_to_win="1">
+Reglas: Modo estándar, {player_count} jugadores, partidas de una ronda
+</entry>
+
+</locale>

@@ -1,0 +1,149 @@
+<!-- Hikou no mizu locale file format, see en.xml for details -->
+<?xml version="1.0" encoding="utf-8" ?>
+<locale author="Duncan Deveaux, Hanna Deveaux" license="GPL-3.0">
+    <entry key="menu_play">Spill</entry>
+    <entry key="menu_versus">Versus</entry>
+    <entry key="menu_multiplayer">Flerspiller</entry>
+    <entry key="menu_options">Innstillinger</entry>
+    <entry key="menu_exit">Avslutt</entry>
+    <entry key="menu_2players">2 Spiller</entry>
+    <entry key="menu_3players">3 Spiller</entry>
+    <entry key="menu_4players">4 Spiller</entry>
+    <entry key="menu_5players">5 Spiller</entry>
+    <entry key="menu_6players">6 Spiller</entry>
+    <entry key="menu_singleround">Én runde</entry>
+    <entry key="menu_2rounds">Vinn 2 runder</entry>
+    <entry key="menu_3rounds">Vinn 3 runder</entry>
+    <entry key="menu_4rounds">Vinn 4 runder</entry>
+    <entry key="menu_5rounds">Vinn 5 runder</entry>
+    <entry key="header_back">&lt; Tilbake</entry>
+    <entry key="character_selection_title">Karaktervalg</entry>
+    <entry key="character_selection_subtitle">Velg karakterene som skal kjempe!</entry>
+    <entry key="character_selection_no_name">?</entry>
+    <entry key="character_selection_ai_name:{name}">{name} - KI</entry>
+    <entry key="arena_selection_title">Arenavalg</entry>
+    <entry key="arena_selection_subtitle">Velg arenaen der kampen foregår!</entry>
+    <entry key="arena_selection_validate">Bekreft</entry>
+    <entry key="client_lobby_title">Flerspiller</entry>
+    <entry key="client_lobby_subtitle">Velg din karakter og koble til et flerspiller spill over nett!</entry>
+    <entry key="client_lobby_address">adresse</entry>
+    <entry key="client_lobby_port">port</entry>
+    <entry key="client_lobby_username">brukernavn</entry>
+    <entry key="client_lobby_connect">Koble til</entry>
+    <entry key="client_lobby_connecting">Venter på serveren...</entry>
+    <entry key="client_lobby_unresolvable">Adressen kunne ikke nås</entry>
+    <entry key="dialog_ok">Bekreft</entry>
+    <entry key="dialog_cancel">Avbryt</entry>
+    <entry key="kicked_connection_lost">Mistet tilkobling</entry>
+    <entry key="kicked_version_mismatch">Klienten og serveren har inkompatible versjoner</entry>
+    <entry key="kicked_server_is_full">Serveren er full</entry>
+    <entry key="kicked_server_no_character">Serveren kjenner ikke til valgt karakter</entry>
+    <entry key="kicked_inactivity">Frakoblet for inaktivitet</entry>
+    <entry key="kicked_illegal_command">Ugyldig kommando</entry>
+    <entry key="kicked_unintelligible_by_server">Serveren gjenkjenner ikke datapakken</entry>
+    <entry key="kicked_unintelligible_by_client">Klienten gjenkjenner ikke datapakken</entry>
+    <entry key="kicked_connection_timeout">Serveren svarer ikke (timeout)</entry>
+    <entry key="kicked_client_no_arena">Serveren har en ukjent arena</entry>
+    <entry key="kicked_client_no_character">Serveren inneholder en ukjent karakter</entry>
+    <entry key="kicked_client_decision">Klientens valg</entry>
+    <entry key="kicked_enet_error">ENet-feil</entry>
+    <entry key="kicked_unknown_reason">Ukjent årsak</entry>
+    <entry key="options_title">Innstillinger</entry>
+    <entry key="options_subtitle">Spill og kontroll innstillinger</entry>
+    <entry key="options_general">Generelt</entry>
+    <entry key="options_controls">Kontroller</entry>
+    <entry key="options_display">Grafikk</entry>
+    <entry key="options_refresh_rate">Oppdateringsfrekvens</entry>
+    <entry key="options_audio">Lyd</entry>
+    <entry key="options_locale">Språk</entry>
+    <entry key="options_miscellaneous">Annet</entry>
+    <entry key="options_display_mode">Skjermmodus:</entry>
+    <entry key="options_display_mode_fullscreen_borderless">Fullskjerm (grenseløs vindu)</entry>
+    <entry key="options_display_mode_fullscreen_native">Fullskjerm (ekte)</entry>
+    <entry key="options_display_mode_windowed">Vindu</entry>
+    <entry key="options_display_resolution">Skjermoppløsning:</entry>
+    <entry key="options_display_revert_to_default">Tilbakestill</entry>
+    <entry key="options_display_apply">Oppdater grafikk</entry>
+    <entry key="options_display_applied_at_next_restart">Innstillingene oppdateres ved å starte spillet på nytt</entry>
+    <entry key="options_refresh_rate_vertical_sync">Vertikal synkronisering:</entry>
+    <entry key="options_refresh_rate_frames_per_second">Bilder per sekund:</entry>
+    <entry key="options_audio_master">Hovedvolum:</entry>
+    <entry key="options_audio_music">Musikk:</entry>
+    <entry key="options_audio_ambient">Stemningslyder:</entry>
+    <entry key="options_audio_sound_effects">Lydeffekter:</entry>
+    <entry key="options_locale_language">Språk:</entry>
+    <entry key="options_dynamic_camera">Dynamisk kamera:</entry>
+    <entry key="options_shaking_camera">Ristende kamera:</entry>
+    <entry key="options_show_frame_rate">Vis FPS-teller:</entry>
+    <entry key="options_show_hitboxes">Vis treffbokser:</entry>
+    <entry key="options_controls_binder_id:{binder_id}">Kontroller spiller #{binder_id}</entry>
+    <entry key="options_controls_active_device">Aktiv kontrollenhet:</entry>
+    <entry key="options_controls_reset_joystick">Tilbakestill kontroller</entry>
+    <entry key="options_controls_keyboard">Tastatur</entry>
+    <entry key="options_controls_punch">Slag:</entry>
+    <entry key="options_controls_kick">Spark:</entry>
+    <entry key="options_controls_block">Blokkere:</entry>
+    <entry key="options_controls_throw">Kastvåpen:</entry>
+    <entry key="options_controls_jump">Hoppe:</entry>
+    <entry key="options_controls_move_left">Til venstre:</entry>
+    <entry key="options_controls_move_right">Til høyre:</entry>
+    <entry key="options_controls_crouch">Huke:</entry>
+    <entry key="key_joy_button:{button_id}">Knapp {button_id}</entry>
+    <entry key="key_joy_axis_negative:{axis_id}">Styrespak {axis_id}: -</entry>
+    <entry key="key_joy_axis_positive:{axis_id}">Styrespak {axis_id}: +</entry>
+    <entry key="key_joy_hat_up:{hat_id}">Retningsknapper {hat_id}: Opp</entry>
+    <entry key="key_joy_hat_down:{hat_id}">Retningsknapper {hat_id}: Ned</entry>
+    <entry key="key_joy_hat_left:{hat_id}">Retningsknapper {hat_id}: Venstre</entry>
+    <entry key="key_joy_hat_right:{hat_id}">Retningsknapper {hat_id}: Høyre</entry>
+    <entry key="key_arrow_up">Opp</entry>
+    <entry key="key_arrow_down">Ned</entry>
+    <entry key="key_arrow_left">Venstre</entry>
+    <entry key="key_arrow_right">Høyre</entry>
+    <entry key="key_spacebar">Mellomrom</entry>
+    <entry key="key_backspace">Backspace</entry>
+    <entry key="key_return">Enter</entry>
+    <entry key="banner_perfect_block">Perfekt blokkering</entry>
+    <entry key="fps_counter_value:{fps}">FPS: {fps}</entry>
+    <entry key="round_announcer_ready">KLAR</entry>
+    <entry key="round_announcer_numbered_round:{round_id}">RUNDE {round_id}</entry>
+    <entry key="round_announcer_final_round">SISTE RUNDE</entry>
+    <entry key="round_announcer_fight">KJEMP</entry>
+    <entry key="round_result_draw_game">Uavgjort!</entry>
+    <entry key="round_result_networked_winner:{username}">{username} vinner!</entry>
+    <entry key="round_result_local_winner:{name},{player_id}">{name} (#{player_id}) vinner!</entry>
+    <entry key="local_game_pause_title">Pause</entry>
+    <entry key="local_game_pause_restart">Start på nytt</entry>
+    <entry key="local_game_end_replay">Spill på nytt</entry>
+    <entry key="networked_game_pause_title">Flerspiller</entry>
+    <entry key="networked_game_pause_disconnect">Koble fra</entry>
+    <entry key="pause_resume">Fortsett</entry>
+    <entry key="pause_to_main_menu">Hovedmeny</entry>
+    <entry key="peer_info_character">Karakter</entry>
+    <entry key="peer_info_username">Brukernavn</entry>
+    <entry key="peer_info_ping">Ping</entry>
+    <entry key="peer_info_spectators">Tilskuere</entry>
+    <entry key="server_event_game_scheduled">Et nytt spill starter snart...</entry>
+    <entry key="server_event_matchmaking_stack">Spillere velges etter tilkoblingstid</entry>
+    <entry key="server_event_matchmaking_random">Tilfeldig spillere velges</entry>
+    <entry key="server_event_matchmaking_challenger">Tilfeldig spillere velges mot vinneren</entry>
+    <entry key="server_event_peer_joined:{peer}">{peer} ble med i kampen</entry>
+    <entry key="server_event_peer_left:{peer}">{peer} forlot kampen</entry>
+    <entry key="server_event_peer_kicked_for_inactivity:{peer}">{peer} ble kastet ut for inaktivitet</entry>
+
+<entry key="server_event_rules_versus:{player_count},{rounds_to_win}">
+Regler: Versus-spillmodus, {player_count} spillere, vinn {rounds_to_win} runder
+</entry>
+
+<entry key="server_event_rules_versus:{player_count},{rounds_to_win}" rounds_to_win="1">
+Regler: Versus-spillmodus, {player_count} spillere, vinn {rounds_to_win} runde
+</entry>
+
+<entry key="server_event_rules_default:{player_count},{rounds_to_win}">
+Regler: Standard-spillmodus, {player_count} spillere, vinn {rounds_to_win} runder
+</entry>
+
+<entry key="server_event_rules_default:{player_count},{rounds_to_win}" rounds_to_win="1">
+Regler: Standard-spillmodus, {player_count} spillere, vinn {rounds_to_win} runde
+</entry>
+
+</locale>
