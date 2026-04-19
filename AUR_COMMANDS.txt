@@ -1,0 +1,17 @@
+# Commands to build and push to AUR
+
+cd ~/Documents/Fighter-1/aur/fighter-1
+makepkg --printsrcinfo > .SRCINFO
+
+mkdir -p ~/Documents/aur
+cd ~/Documents/aur
+git clone ssh://aur@aur.archlinux.org/fighter-1.git
+cd fighter-1
+cp ~/Documents/Fighter-1/aur/fighter-1/PKGBUILD .
+cp ~/Documents/Fighter-1/aur/fighter-1/.SRCINFO .
+cp ~/Documents/Fighter-1/aur/fighter-1/icon.png .
+cp ~/Documents/Fighter-1/aur/fighter-1/Fighter.desktop .
+cp ~/Documents/Fighter-1/aur/fighter-1/fighter-1.sh .
+git add PKGBUILD .SRCINFO icon.png Fighter.desktop fighter-1.sh
+git commit -m "Initial import"
+git push origin master

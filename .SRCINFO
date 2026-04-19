@@ -1,0 +1,15 @@
+pkgbase = fighter-1
+	pkgdesc = A fighting game written in Python.
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/yourusername/Fighter-1
+	arch = any
+	license = MIT
+	depends = python
+	depends = python-pygame
+	source = fighter-1-1.0.0.tar.gz
+	source = icon.png
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = fighter-1
