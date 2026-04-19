@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Fighter
+Comment=Python arena fighter inspired by Hikou no mizu
+Exec=python3 /home/evans/Documents/Fighter/main.py
+Icon=/home/evans/Documents/Fighter/assets/original/gfx/icon.png
+Terminal=false
+Categories=Game;ArcadeGame;
