@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+    <arena pathname="machi" name="Machi" width="3072" height="1728"
+        ground="1678" material="asphalt" gravity="4100" airFriction="2250" minCameraWidth="1920" ambient="cricket">
+        <background srcX="0" srcY="0" srcWidth="2048" srcHeight="1152" />
+
+        <platforms>
+            <platform x="0" y="939" width="1007" height="1" bodyX="0" bodyY="0" bodyWidth="1007" bodyHeight="1"
+                srcX="0" srcY="2046" srcWidth="1" srcHeight="1" material="sheet" fixed="1" />
+        </platforms>
+
+        <spawns>
+            <spawn playerIx="0" x="225" y="1678" />
+            <spawn playerIx="1" x="2575" y="1678" />
+            <spawn playerIx="2" x="800" y="1678" />
+            <spawn playerIx="3" x="2000" y="1678" />
+            <spawn playerIx="4" x="1400" y="1678" />
+            <spawn playerIx="5" x="225" y="938" />
+            <spawn playerIx="6" x="800" y="938" />
+        </spawns>
+    </arena>
+
+    <arena pathname="traezh" name="Traezh" width="5760" height="3240"
+        ground="2466" material="sand" gravity="4100" airFriction="2250" minCameraWidth="4400" ambient="ocean">
+        <background srcX="0" srcY="0" srcWidth="1920" srcHeight="1080" />
+
+        <platforms>
+            <platform x="2377" y="2466" width="370" height="87" bodyX="0" bodyY="0" bodyWidth="370" bodyHeight="87" material="rock" fixed="1" />
+            <platform x="2614" y="2379" width="370" height="33" bodyX="0" bodyY="0" bodyWidth="370" bodyHeight="33" material="rock" fixed="1" />
+            <platform x="2647" y="2346" width="370" height="43" bodyX="0" bodyY="0" bodyWidth="370" bodyHeight="43" material="rock" fixed="1" />
+            <platform x="2680" y="2303" width="370" height="44" bodyX="0" bodyY="0" bodyWidth="370" bodyHeight="44" material="rock" fixed="1" />
+            <platform x="2722" y="2259" width="370" height="59" bodyX="0" bodyY="0" bodyWidth="370" bodyHeight="59" material="rock" fixed="1" />
+            <platform x="2906" y="2200" width="741" height="22" bodyX="0" bodyY="0" bodyWidth="741" bodyHeight="22" material="rock" fixed="1" />
+            <platform x="2906" y="2178" width="227" height="45" bodyX="0" bodyY="0" bodyWidth="227" bodyHeight="45" material="rock" fixed="1" />
+            <platform x="2906" y="2133" width="98" height="28" bodyX="0" bodyY="0" bodyWidth="98" bodyHeight="28" material="rock" fixed="1" />
+            <platform x="3516" y="2178" width="309" height="56" bodyX="0" bodyY="0" bodyWidth="309" bodyHeight="56" material="rock" fixed="1" />
+            <platform x="3580" y="2122" width="309" height="39" bodyX="0" bodyY="0" bodyWidth="309" bodyHeight="39" material="rock" fixed="1" />
+            <platform x="3731" y="2083" width="309" height="28" bodyX="0" bodyY="0" bodyWidth="309" bodyHeight="28" material="rock" fixed="1" />
+            <platform x="3994" y="2055" width="64" height="57" bodyX="0" bodyY="0" bodyWidth="64" bodyHeight="57" material="rock" fixed="1" />
+            <platform x="4036" y="1998" width="64" height="31" bodyX="0" bodyY="0" bodyWidth="64" bodyHeight="31" material="rock" fixed="1" />
+            <platform x="4063" y="1967" width="64" height="35" bodyX="0" bodyY="0" bodyWidth="64" bodyHeight="35" material="rock" fixed="1" />
+            <platform x="4092" y="1932" width="64" height="29" bodyX="0" bodyY="0" bodyWidth="64" bodyHeight="29" material="rock" fixed="1" />
+            <platform x="4115" y="1903" width="64" height="30" bodyX="0" bodyY="0" bodyWidth="64" bodyHeight="30" material="rock" fixed="1" />
+            <platform x="4150" y="1873" width="64" height="36" bodyX="0" bodyY="0" bodyWidth="64" bodyHeight="36" material="rock" fixed="1" />
+            <platform x="4182" y="1837" width="64" height="36" bodyX="0" bodyY="0" bodyWidth="64" bodyHeight="36" material="rock" fixed="1" />
+            <platform x="4218" y="1801" width="64" height="75" bodyX="0" bodyY="0" bodyWidth="64" bodyHeight="75" material="rock" fixed="1" />
+            <platform x="4244" y="1726" width="64" height="37" bodyX="0" bodyY="0" bodyWidth="64" bodyHeight="37" material="rock" fixed="1" />
+            <platform x="4270" y="1689" width="64" height="36" bodyX="0" bodyY="0" bodyWidth="64" bodyHeight="36" material="rock" fixed="1" />
+            <platform x="4292" y="1653" width="23" height="23" bodyX="0" bodyY="0" bodyWidth="23" bodyHeight="23" material="rock" fixed="1" />
+            <platform x="4315" y="1640" width="338" height="53" bodyX="0" bodyY="0" bodyWidth="338" bodyHeight="53" material="rock" fixed="1" />
+            <platform x="4636" y="1695" width="46" height="55" bodyX="0" bodyY="0" bodyWidth="46" bodyHeight="55" material="rock" fixed="1" />
+            <platform x="4645" y="1717" width="92" height="22" bodyX="0" bodyY="0" bodyWidth="92" bodyHeight="22" material="rock" fixed="1" />
+            <platform x="4688" y="1768" width="613" height="51" bodyX="0" bodyY="0" bodyWidth="613" bodyHeight="51" material="rock" fixed="1" />
+            <platform x="4737" y="1717" width="518" height="48" bodyX="0" bodyY="0" bodyWidth="518" bodyHeight="48" material="rock" fixed="1" />
+            <platform x="4737" y="1669" width="430" height="29" bodyX="0" bodyY="0" bodyWidth="430" bodyHeight="29" material="rock" fixed="1" />
+            <platform x="5287" y="1844" width="46" height="76" bodyX="0" bodyY="0" bodyWidth="46" bodyHeight="76" material="rock" fixed="1" />
+            <platform x="5321" y="1899" width="46" height="55" bodyX="0" bodyY="0" bodyWidth="46" bodyHeight="55" material="rock" fixed="1" />
+            <platform x="5348" y="1961" width="46" height="62" bodyX="0" bodyY="0" bodyWidth="46" bodyHeight="62" material="rock" fixed="1" />
+            <platform x="5376" y="2102" width="46" height="141" bodyX="0" bodyY="0" bodyWidth="46" bodyHeight="141" material="rock" fixed="1" />
+            <platform x="5406" y="2145" width="185" height="43" bodyX="0" bodyY="0" bodyWidth="185" bodyHeight="43" material="rock" fixed="1" />
+            <platform x="5448" y="2225" width="185" height="80" bodyX="0" bodyY="0" bodyWidth="185" bodyHeight="80" material="rock" fixed="1" />
+            <platform x="5575" y="2246" width="185" height="21" bodyX="0" bodyY="0" bodyWidth="185" bodyHeight="21" material="rock" fixed="1" />
+        </platforms>
+
+        <spawns>
+            <spawn playerIx="0" x="310" y="2466" />
+            <spawn playerIx="1" x="5430" y="2102" />
+            <spawn playerIx="2" x="860" y="2466" />
+            <spawn playerIx="3" x="4940" y="1640" />
+            <spawn playerIx="4" x="1410" y="2466" />
+            <spawn playerIx="5" x="4384" y="1587" />
+            <spawn playerIx="6" x="2050" y="2466" />
+            <spawn playerIx="7" x="3800" y="2055" />
+            <spawn playerIx="8" x="2722" y="2200" />
+            <spawn playerIx="9" x="3280" y="2178" />
+        </spawns>
+    </arena>
+
+    <arena pathname="evigsol" name="Evig Sol" width="2880" height="1620"
+        ground="1500" material="grass" gravity="3600" airFriction="2250" minCameraWidth="1920" ambient="port">
+        <background srcX="0" srcY="0" srcWidth="1920" srcHeight="1080" />
+
+        <platforms>
+            <platform x="250" y="1500" width="311" height="225" bodyX="0" bodyY="15" bodyWidth="311" bodyHeight="210"
+                srcX="0" srcY="1084" srcWidth="207" srcHeight="150" material="wood" hitable="1" />
+            <platform x="375" y="1290" width="311" height="225" bodyX="0" bodyY="15" bodyWidth="311" bodyHeight="210"
+                srcX="0" srcY="1084" srcWidth="207" srcHeight="150" material="wood" hitable="1" />
+            <platform x="275" y="1080" width="311" height="225" bodyX="0" bodyY="15" bodyWidth="311" bodyHeight="210"
+                srcX="0" srcY="1084" srcWidth="207" srcHeight="150" material="wood" hitable="1" />
+            <platform x="350" y="870" width="311" height="225" bodyX="0" bodyY="15" bodyWidth="311" bodyHeight="210"
+                srcX="0" srcY="1084" srcWidth="207" srcHeight="150" material="wood" hitable="1" />
+
+            <platform x="1300" y="1500" width="311" height="225" bodyX="0" bodyY="15" bodyWidth="311" bodyHeight="210"
+                srcX="0" srcY="1084" srcWidth="207" srcHeight="150" material="wood" hitable="1" />
+            <platform x="1250" y="1290" width="311" height="225" bodyX="0" bodyY="15" bodyWidth="311" bodyHeight="210"
+                srcX="0" srcY="1084" srcWidth="207" srcHeight="150" material="wood" hitable="1" />
+            <platform x="1275" y="1080" width="311" height="225" bodyX="0" bodyY="15" bodyWidth="311" bodyHeight="210"
+                srcX="0" srcY="1084" srcWidth="207" srcHeight="150" material="wood" hitable="1" />
+
+            <platform x="2350" y="1500" width="311" height="225" bodyX="0" bodyY="15" bodyWidth="311" bodyHeight="210"
+                srcX="0" srcY="1084" srcWidth="207" srcHeight="150" material="wood" hitable="1" />
+            <platform x="2225" y="1290" width="311" height="225" bodyX="0" bodyY="15" bodyWidth="311" bodyHeight="210"
+                srcX="0" srcY="1084" srcWidth="207" srcHeight="150" material="wood" hitable="1" />
+            <platform x="2325" y="1080" width="311" height="225" bodyX="0" bodyY="15" bodyWidth="311" bodyHeight="210"
+                srcX="0" srcY="1084" srcWidth="207" srcHeight="150" material="wood" hitable="1" />
+            <platform x="2250" y="870" width="311" height="225" bodyX="0" bodyY="15" bodyWidth="311" bodyHeight="210"
+                srcX="0" srcY="1084" srcWidth="207" srcHeight="150" material="wood" hitable="1" />
+        </platforms>
+
+        <spawns>
+            <spawn playerIx="0" x="450" y="660" />
+            <spawn playerIx="1" x="2340" y="660" />
+            <spawn playerIx="2" x="1380" y="870" />
+            <spawn playerIx="3" x="900" y="1500" />
+            <spawn playerIx="4" x="1850" y="1500" />
+            <spawn playerIx="5" x="50" y="1500" />
+            <spawn playerIx="6" x="2720" y="1500" />
+        </spawns>
+    </arena>
+
+    <arena pathname="isfjall" name="Ísfjall" width="2400" height="1350"
+        ground="1163" material="snow" gravity="4100" airFriction="2250" minCameraWidth="1920" ambient="wind">
+        <background srcX="0" srcY="0" srcWidth="1920" srcHeight="1080" />
+
+        <spawns>
+            <spawn playerIx="0" x="225" y="1163" />
+            <spawn playerIx="1" x="2050" y="1163" />
+            <spawn playerIx="2" x="600" y="1163" />
+            <spawn playerIx="3" x="1725" y="1163" />
+            <spawn playerIx="4" x="975" y="1163" />
+            <spawn playerIx="5" x="1350" y="1163" />
+        </spawns>
+    </arena>
+
+    <arena pathname="lac" name="Lac" width="2400" height="1350"
+        ground="1280" material="grass" gravity="4100" airFriction="2250" minCameraWidth="1920" ambient="forest">
+        <background srcX="0" srcY="0" srcWidth="1920" srcHeight="1080" />
+
+        <spawns>
+            <spawn playerIx="0" x="225" y="1163" />
+            <spawn playerIx="1" x="2050" y="1163" />
+            <spawn playerIx="2" x="600" y="1163" />
+            <spawn playerIx="3" x="1725" y="1163" />
+            <spawn playerIx="4" x="975" y="1163" />
+            <spawn playerIx="5" x="1350" y="1163" />
+        </spawns>
+    </arena>
+
+    <arena pathname="dojo" name="Dōjō" width="1600" height="900"
+        ground="812" material="wood" gravity="5100" airFriction="2250" minCameraWidth="1920" ambient="waves">
+        <background srcX="0" srcY="0" srcWidth="1920" srcHeight="1080" />
+
+        <spawns>
+            <spawn playerIx="0" x="175" y="812" />
+            <spawn playerIx="1" x="1300" y="812" />
+            <spawn playerIx="2" x="400" y="812" />
+            <spawn playerIx="3" x="1075" y="812" />
+            <spawn playerIx="4" x="625" y="812" />
+            <spawn playerIx="5" x="850" y="812" />
+        </spawns>
+    </arena>
+
+    <arena pathname="pradenn" name="Pradenn" width="2049" height="1152"
+        ground="1110" material="grass" gravity="4100" airFriction="2250" minCameraWidth="1920">
+        <background srcX="0" srcY="0" srcWidth="1920" srcHeight="1080" />
+
+        <spawns>
+            <spawn playerIx="0" x="150" y="1110" />
+            <spawn playerIx="1" x="1775" y="1110" />
+            <spawn playerIx="2" x="475" y="1110" />
+            <spawn playerIx="3" x="1450" y="1110" />
+            <spawn playerIx="4" x="800" y="1110" />
+            <spawn playerIx="5" x="1125" y="1110" />
+        </spawns>
+    </arena>
+
+    <arena pathname="scalae" name="Scalae" width="1920" height="1080"
+        ground="1031" gravity="4100" airFriction="2250" minCameraWidth="1920">
+        <background srcX="0" srcY="0" srcWidth="1920" srcHeight="1080" />
+
+        <platforms>
+            <platform x="0" y="1031" width="1920" height="93" bodyX="0" bodyY="0" bodyWidth="1920" bodyHeight="93"
+                srcX="0" srcY="1080" srcWidth="1920" srcHeight="93" material="wood" fixed="1" />
+            <platform x="420" y="938" width="1500" height="93" bodyX="0" bodyY="0" bodyWidth="1500" bodyHeight="93"
+                srcX="0" srcY="1174" srcWidth="1500" srcHeight="93" material="wood" fixed="1" />
+            <platform x="795" y="845" width="1125" height="93" bodyX="0" bodyY="0" bodyWidth="1125" bodyHeight="93"
+                srcX="0" srcY="1268" srcWidth="1125" srcHeight="93" material="wood" fixed="1" />
+            <platform x="1170" y="752" width="750" height="92" bodyX="0" bodyY="0" bodyWidth="750" bodyHeight="92"
+                srcX="0" srcY="1362" srcWidth="750" srcHeight="92" material="wood" fixed="1" />
+            <platform x="1545" y="660" width="375" height="92" bodyX="0" bodyY="0" bodyWidth="375" bodyHeight="92"
+                srcX="0" srcY="1456" srcWidth="375" srcHeight="92" material="wood" fixed="1" />
+        </platforms>
+
+        <spawns>
+            <spawn playerIx="0" x="100" y="938" />
+            <spawn playerIx="1" x="1600" y="568" />
+            <spawn playerIx="2" x="475" y="845" />
+            <spawn playerIx="3" x="1275" y="660" />
+            <spawn playerIx="4" x="820" y="752" />
+            <spawn playerIx="5" x="1000" y="752" />
+        </spawns>
+    </arena>
+</main>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+    <character name="Hikou" strength="8" speed="750" jumpEnergy="1750">
+        <particles>
+            <perfectBlock>
+                <field type="group">
+                    <field type="radial" count="3" lifetime="0.3" speed="100" damping="1.0">
+                        <particle type="polygon">
+                            <shape type="circle" radius="30" />
+                            <backgroundColor r="255" g="255" b="255" a="150" />
+                            <borderColor a="0" />
+                        </particle>
+                    </field>
+                    <field type="radial" count="4" lifetime="0.5" speed="100" damping="0.1">
+                        <particle type="polygon">
+                            <shape type="circle" radius="12" />
+                            <backgroundColor r="0" g="96" b="161" />
+                            <borderColor r="0" g="0" b="0" />
+                        </particle>
+                    </field>
+                </field>
+            </perfectBlock>
+        </particles>
+    </character>
+
+    <character name="Takino" strength="8" speed="750" jumpEnergy="1750">
+        <particles>
+            <perfectBlock>
+                <field type="radial" count="10" lifetime="0.4" speed="100" damping="0.1">
+                    <particle type="polygon">
+                        <shape type="circle" points="5" radius="10" />
+                        <backgroundColor r="189" g="99" b="155" />
+                        <borderColor r="255" g="255" b="255" />
+                    </particle>
+                </field>
+            </perfectBlock>
+        </particles>
+    </character>
+
+    <character name="Hana" strength="8" speed="750" jumpEnergy="1750">
+        <particles>
+            <perfectBlock>
+                <field type="group">
+                    <field type="radial" count="7" lifetime="0.5" speed="100" damping="0.1">
+                        <particle type="polygon">
+                            <shape type="circle" radius="10" />
+                            <backgroundColor r="236" g="147" b="105" />
+                            <borderColor r="0" g="0" b="0" />
+                        </particle>
+                    </field>
+                    <field type="radial" count="3" lifetime="0.5" speed="100" damping="0.1">
+                        <particle type="polygon">
+                            <shape type="circle" radius="15" />
+                            <backgroundColor r="210" g="57" b="56" />
+                            <borderColor r="0" g="0" b="0" />
+                        </particle>
+                    </field>
+                </field>
+            </perfectBlock>
+        </particles>
+    </character>
+
+</main>
