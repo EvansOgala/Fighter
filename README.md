@@ -1,7 +1,6 @@
 # Fighter
 
-Fighter is a Python remake inspired by the Flatpak-installed game bundle found in
-`~/Documents/org.hikounomizu.HikouNoMizu`.
+Fighter is a Python remake inspired by Hikou no Mizu
 
 It reuses the bundled art, music, fonts, and configuration data from that app to
 build a softer-feeling local fighting game with:
