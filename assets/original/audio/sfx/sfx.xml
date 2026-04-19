@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+
+    <!-- Walk sounds -->
+    <soundeffect name="walk_asphalt">
+        <sound path="walk/asphalt.ogg" />
+    </soundeffect>
+
+    <soundeffect name="walk_sheet">
+        <sound path="walk/sheet.ogg" />
+    </soundeffect>
+
+    <soundeffect name="walk_wood">
+        <sound path="walk/wood.ogg" />
+    </soundeffect>
+
+    <soundeffect name="walk_snow">
+        <sound path="walk/snow/snow1.ogg" />
+        <sound path="walk/snow/snow2.ogg" />
+        <sound path="walk/snow/snow3.ogg" />
+    </soundeffect>
+
+    <soundeffect name="walk_grass">
+        <sound path="walk/grass/grass1.ogg" />
+        <sound path="walk/grass/grass2.ogg" />
+    </soundeffect>
+
+    <soundeffect name="walk_sand">
+        <sound path="walk/sand.ogg" />
+    </soundeffect>
+
+    <soundeffect name="walk_rock">
+        <sound path="walk/asphalt.ogg" />
+    </soundeffect>
+
+
+    <!-- Impact sounds -->
+    <soundeffect name="impact_asphalt">
+        <sound path="walk/asphalt.ogg" />
+    </soundeffect>
+
+    <soundeffect name="impact_sheet">
+        <sound path="walk/sheet.ogg" />
+    </soundeffect>
+
+    <soundeffect name="impact_wood">
+        <sound path="walk/wood.ogg" />
+    </soundeffect>
+
+    <soundeffect name="impact_snow">
+        <sound path="walk/snow/snow1.ogg" />
+        <sound path="walk/snow/snow2.ogg" />
+        <sound path="walk/snow/snow3.ogg" />
+    </soundeffect>
+
+    <soundeffect name="impact_grass">
+        <sound path="walk/grass/grass1.ogg" />
+        <sound path="walk/grass/grass2.ogg" />
+    </soundeffect>
+
+    <soundeffect name="impact_sand">
+        <sound path="walk/sand.ogg" />
+    </soundeffect>
+
+    <soundeffect name="impact_rock">
+        <sound path="walk/asphalt.ogg" />
+    </soundeffect>
+
+    <!-- Impact of shuriken cancelling themselves -->
+    <soundeffect name="impact_shuriken" pitchVariation=".5">
+        <sound path="walk/wood.ogg" />
+    </soundeffect>
+
+
+    <!-- Hit sounds -->
+    <soundeffect character="Hikou" name="takeAHit" pitchVariation=".05">
+        <sound path="Hikou/takeAHit.ogg" />
+    </soundeffect>
+
+    <soundeffect character="Takino" name="takeAHit" pitchVariation=".05">
+        <sound path="Takino/takeAHit.ogg" />
+    </soundeffect>
+
+    <soundeffect character="Hana" name="takeAHit" pitchVariation=".05">
+        <sound path="Hana/takeAHit1.ogg" />
+        <sound path="Hana/takeAHit2.ogg" />
+    </soundeffect>
+
+
+    <!-- Punch sounds -->
+    <soundeffect character="Hikou" name="punch" pitchVariation=".05">
+        <sound path="Hikou/punch.ogg" />
+    </soundeffect>
+
+    <soundeffect character="Takino" name="punch" pitchVariation=".05">
+        <sound path="Takino/punch1.ogg" />
+        <sound path="Takino/punch2.ogg" />
+    </soundeffect>
+
+    <soundeffect character="Hana" name="punch" pitchVariation=".05">
+        <sound path="Hana/punch.ogg" />
+    </soundeffect>
+
+
+    <!-- Kick sounds -->
+    <soundeffect character="Hikou" name="kick" pitchVariation=".05">
+        <sound path="Hikou/kick1.ogg" />
+        <sound path="Hikou/kick2.ogg" />
+    </soundeffect>
+
+    <soundeffect character="Takino" name="kick" pitchVariation=".05">
+        <sound path="Takino/kick1.ogg" />
+        <sound path="Takino/kick2.ogg" />
+    </soundeffect>
+
+    <soundeffect character="Hana" name="kick" pitchVariation=".05">
+        <sound path="Hana/kick1.ogg" />
+        <sound path="Hana/kick2.ogg" />
+    </soundeffect>
+
+    <!-- Air friction sounds -->
+    <soundeffect name="airfriction">
+        <sound path="air/air_friction1.ogg" />
+        <sound path="air/air_friction2.ogg" />
+        <sound path="air/air_friction3.ogg" />
+        <sound path="air/air_friction4.ogg" />
+    </soundeffect>
+
+    <!-- Elemental sounds -->
+    <soundeffect name="fire">
+        <sound path="elements/fire.ogg" />
+    </soundeffect>
+
+    <soundeffect name="water">
+        <sound path="elements/water.ogg" />
+    </soundeffect>
+
+    <soundeffect name="zap">
+        <sound path="elements/zap1.ogg" />
+        <sound path="elements/zap2.ogg" />
+    </soundeffect>
+
+    <!-- Block sounds-->
+    <soundeffect name="block">
+        <sound path="block/block.ogg" />
+    </soundeffect>
+
+    <soundeffect name="perfect_block">
+        <sound path="block/perfect_block.ogg" />
+    </soundeffect>
+
+</main>

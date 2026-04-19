@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+<data>
+<default>
+<animation path="default" duration="3">
+<frame repeat="85" x="0" y="0" width="244" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="248" y="0" width="244" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="496" y="0" width="244" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="744" y="0" width="244" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="0" y="471" width="244" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="248" y="471" width="244" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="0" y="471" width="244" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="744" y="0" width="244" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="496" y="0" width="244" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="248" y="0" width="244" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame repeat="85" x="0" y="0" width="244" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+</animation>
+<attacks>
+<punch>
+<animation path="default_punch" duration=".4">
+<frame x="0" y="0" width="308" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="312" y="0" width="308" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="624" y="0" width="308" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="936" y="0" width="308" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1248" y="0" width="308" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1560" y="0" width="308" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="0" y="471" width="308" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame repeat="10" x="312" y="471" width="308" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+</animation>
+<hits>
+<hit time=".16" strength="1" x="138.7" y="168.7" width="123.7" height="46.9" />
+</hits>
+<sfx>
+<soundeffect name="punch" time="0" />
+<soundeffect name="airfriction" time=".1" />
+</sfx>
+</punch>
+<kick>
+<animation path="default_kick" duration=".35">
+<frame x="0" y="0" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="315" y="0" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="630" y="0" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="945" y="0" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="1260" y="0" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="1575" y="0" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="0" y="471" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="315" y="471" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="630" y="471" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="945" y="471" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="1260" y="471" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="1575" y="471" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame repeat="8" x="0" y="942" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="315" y="942" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="630" y="942" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="945" y="942" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="1260" y="942" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+<frame x="1575" y="942" width="311" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.8" bodyHeight="431.2" />
+</animation>
+<hits>
+<hit time=".22" strength="1.1" x="221.2" y="266.1" width="50.6" height="48.7" />
+</hits>
+<sfx>
+<soundeffect name="kick" time="0" />
+<soundeffect name="airfriction" time=".1" />
+</sfx>
+</kick>
+<takeAHit>
+<animation path="default_hit" duration=".17">
+<frame x="0" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="270" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="540" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="810" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1080" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1350" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1620" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="0" y="471" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="270" y="471" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="540" y="471" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+</animation>
+<sfx>
+<soundeffect name="takeAHit" time="0" />
+</sfx>
+</takeAHit>
+</attacks>
+</default>
+<standingBlock>
+<animation path="standing_block" duration=".26">
+<frame x="0" y="0" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="248" y="0" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="496" y="0" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="744" y="0" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="992" y="0" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1240" y="0" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1488" y="0" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1736" y="0" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="0" y="471" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="248" y="471" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="496" y="471" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="744" y="471" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="992" y="471" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1240" y="471" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1488" y="471" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1736" y="471" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="0" y="942" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+</animation>
+<attacks>
+<takeAHit>
+<animation path="standing_block_stun" duration=".1">
+<frame x="0" y="0" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="248" y="0" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="496" y="0" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="744" y="0" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="0" y="471" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="248" y="471" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="496" y="471" width="244" height="467" bodyX="48.7" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+</animation>
+<sfx>
+<soundeffect name="block" time="0" />
+</sfx>
+</takeAHit>
+</attacks>
+</standingBlock>
+<jumping>
+<animation path="jumping" duration="1">
+<frame x="0" y="0" width="248" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+</animation>
+<attacks>
+<punch>
+<animation path="jumping_punch" duration="0.35">
+<frame x="0" y="0" width="379" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="383" y="0" width="379" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="766" y="0" width="379" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="1149" y="0" width="379" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="1532" y="0" width="379" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="0" y="480" width="379" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="383" y="480" width="379" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame repeat="16" x="766" y="480" width="379" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+</animation>
+<hits>
+<hit time=".15" strength=".8" x="157.5" y="240" width="181.9" height="28.1" />
+</hits>
+<sfx>
+<soundeffect name="punch" time="0" />
+<soundeffect name="airfriction" time=".07" />
+<soundeffect name="water" time=".15" />
+</sfx>
+</punch>
+<kick>
+<animation path="jumping_kick" duration="0.35">
+<frame x="0" y="0" width="368" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.3" bodyHeight="442.5" />
+<frame x="372" y="0" width="368" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.3" bodyHeight="442.5" />
+<frame x="744" y="0" width="368" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.3" bodyHeight="442.5" />
+<frame x="1116" y="0" width="368" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.3" bodyHeight="442.5" />
+<frame x="1488" y="0" width="368" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.3" bodyHeight="442.5" />
+<frame x="0" y="480" width="368" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.3" bodyHeight="442.5" />
+<frame x="372" y="480" width="368" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.3" bodyHeight="442.5" />
+<frame repeat="16" x="744" y="480" width="368" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.3" bodyHeight="442.5" />
+</animation>
+<hits>
+<hit time=".15" strength=".8" x="146.3" y="288.7" width="178.1" height="90" />
+</hits>
+<sfx>
+<soundeffect name="kick" time="0" />
+<soundeffect name="airfriction" time=".07" />
+<soundeffect name="water" time=".15" />
+</sfx>
+</kick>
+<takeAHit>
+<animation path="jumping_hit" duration=".17">
+<frame x="0" y="0" width="259" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="263" y="0" width="259" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="526" y="0" width="259" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="789" y="0" width="259" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="1052" y="0" width="259" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="1315" y="0" width="259" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="1578" y="0" width="259" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="0" y="480" width="259" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="263" y="480" width="259" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+<frame x="526" y="480" width="259" height="476" bodyX="37.5" bodyY="33.8" bodyWidth="146.2" bodyHeight="442.5" />
+</animation>
+<sfx>
+<soundeffect name="takeAHit" time="0" />
+</sfx>
+</takeAHit>
+</attacks>
+</jumping>
+<moving>
+<animation path="moving" duration=".5">
+<frame x="0" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="298" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="596" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="894" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1192" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1490" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1788" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2086" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2384" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2682" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame stepImpact="1" x="2980" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3278" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3576" y="0" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="0" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="298" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="596" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="894" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1192" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1490" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1788" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2086" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2384" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2682" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2980" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3278" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3576" y="456" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="0" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="298" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="596" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="894" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame stepImpact="1" x="1192" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1490" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1788" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2086" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2384" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2682" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2980" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3278" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3576" y="912" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="0" y="1368" width="294" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.7" bodyHeight="410.6" />
+</animation>
+<attacks>
+<punch>
+<animation path="moving_punch" duration=".4">
+<frame x="0" y="0" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="377" y="0" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="754" y="0" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="1131" y="0" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="1508" y="0" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="1885" y="0" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="2262" y="0" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="2639" y="0" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="3016" y="0" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="3393" y="0" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame stepImpact="1" x="0" y="456" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="377" y="456" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="754" y="456" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="1131" y="456" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="1508" y="456" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="1885" y="456" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="2262" y="456" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="2639" y="456" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="3016" y="456" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="3393" y="456" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="0" y="912" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="377" y="912" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="754" y="912" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="1131" y="912" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="1508" y="912" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="1885" y="912" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="2262" y="912" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="2639" y="912" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="3016" y="912" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="3393" y="912" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame stepImpact="1" x="0" y="1368" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="377" y="1368" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="754" y="1368" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="1131" y="1368" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="1508" y="1368" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="1885" y="1368" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="2262" y="1368" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="2639" y="1368" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="3016" y="1368" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+<frame x="3393" y="1368" width="373" height="452" bodyX="67.5" bodyY="41.3" bodyWidth="138.8" bodyHeight="410.6" />
+</animation>
+<hits>
+<hit time=".18" strength="1" x="166.9" y="163.1" width="133.1" height="86.3" />
+</hits>
+<sfx>
+<soundeffect name="punch" time="0" />
+<soundeffect name="airfriction" time=".12" />
+<soundeffect name="water" time=".18" />
+</sfx>
+</punch>
+<kick>
+<animation path="moving_kick" duration=".5">
+<frame x="0" y="0" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="383" y="0" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="766" y="0" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1149" y="0" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1532" y="0" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1915" y="0" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2298" y="0" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2681" y="0" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3064" y="0" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3447" y="0" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="0" y="460" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="383" y="460" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="766" y="460" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1149" y="460" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1532" y="460" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1915" y="460" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2298" y="460" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2681" y="460" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3064" y="460" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3447" y="460" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="0" y="920" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="383" y="920" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="766" y="920" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1149" y="920" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1532" y="920" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1915" y="920" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2298" y="920" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2681" y="920" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3064" y="920" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3447" y="920" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="0" y="1380" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="383" y="1380" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="766" y="1380" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1149" y="1380" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1532" y="1380" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="1915" y="1380" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2298" y="1380" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="2681" y="1380" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3064" y="1380" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+<frame x="3447" y="1380" width="379" height="456" bodyX="99.4" bodyY="45" bodyWidth="138.7" bodyHeight="410.6" />
+</animation>
+<hits>
+<hit time=".29" strength="1.2" x="166.9" y="296.2" width="110.6" height="50.6" />
+</hits>
+<sfx>
+<soundeffect name="kick" time="0" />
+<soundeffect name="airfriction" time=".3" />
+</sfx>
+</kick>
+<takeAHit>
+<animation path="default_hit" duration=".17">
+<frame x="0" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="270" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="540" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="810" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1080" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1350" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="1620" y="0" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="0" y="471" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="270" y="471" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+<frame x="540" y="471" width="266" height="467" bodyX="43.1" bodyY="35.6" bodyWidth="138.7" bodyHeight="431.2" />
+</animation>
+<sfx>
+<soundeffect name="takeAHit" time="0" />
+</sfx>
+</takeAHit>
+</attacks>
+</moving>
+<crouched>
+<animation path="crouched" duration="3">
+<frame repeat="85" x="0" y="0" width="283" height="401" bodyX="41.2" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="287" y="0" width="283" height="401" bodyX="41.2" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="574" y="0" width="283" height="401" bodyX="41.2" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="0" y="405" width="283" height="401" bodyX="41.2" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="287" y="405" width="283" height="401" bodyX="41.2" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="574" y="405" width="283" height="401" bodyX="41.2" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="287" y="405" width="283" height="401" bodyX="41.2" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="0" y="405" width="283" height="401" bodyX="41.2" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="574" y="0" width="283" height="401" bodyX="41.2" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="287" y="0" width="283" height="401" bodyX="41.2" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame repeat="85" x="0" y="0" width="283" height="401" bodyX="41.2" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+</animation>
+<attacks>
+<punch>
+<animation path="crouched_punch" duration=".34">
+<frame x="0" y="0" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="349" y="0" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="698" y="0" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1047" y="0" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1396" y="0" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="0" y="405" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="349" y="405" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="698" y="405" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1047" y="405" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1396" y="405" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="0" y="810" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="349" y="810" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame repeat="12" x="698" y="810" width="345" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+</animation>
+<hits>
+<hit time=".2" strength="1" x="174.4" y="193.1" width="127.5" height="52.5" />
+</hits>
+<sfx>
+<soundeffect name="punch" time="0" />
+<soundeffect name="airfriction" time=".1" />
+</sfx>
+</punch>
+<kick>
+<animation path="crouched_kick" duration=".42">
+<frame x="0" y="0" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="426" y="0" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="852" y="0" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1278" y="0" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="0" y="405" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="426" y="405" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="852" y="405" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1278" y="405" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="0" y="810" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="426" y="810" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="852" y="810" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame repeat="15" x="1278" y="810" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="852" y="810" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="426" y="810" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="852" y="405" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="852" y="0" width="422" height="401" bodyX="80.6" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+</animation>
+<hits>
+<hit time=".2" strength=".4" x="241.9" y="11.2" width="71.3" height="31.9" />
+<hit time=".2" strength=".4" x="241.9" y="33.7" width="97.5" height="31.9" />
+</hits>
+<sfx>
+<soundeffect name="kick" time="0" />
+<soundeffect name="airfriction" time=".1" />
+</sfx>
+</kick>
+<takeAHit>
+<animation path="crouched_hit" duration=".17">
+<frame x="0" y="0" width="283" height="405" bodyX="41.2" bodyY="41.3" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="287" y="0" width="283" height="405" bodyX="41.2" bodyY="41.3" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="574" y="0" width="283" height="405" bodyX="41.2" bodyY="41.3" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="861" y="0" width="283" height="405" bodyX="41.2" bodyY="41.3" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1148" y="0" width="283" height="405" bodyX="41.2" bodyY="41.3" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1435" y="0" width="283" height="405" bodyX="41.2" bodyY="41.3" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1722" y="0" width="283" height="405" bodyX="41.2" bodyY="41.3" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="0" y="409" width="283" height="405" bodyX="41.2" bodyY="41.3" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="287" y="409" width="283" height="405" bodyX="41.2" bodyY="41.3" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="574" y="409" width="283" height="405" bodyX="41.2" bodyY="41.3" bodyWidth="174.4" bodyHeight="363.7" />
+</animation>
+<sfx>
+<soundeffect name="takeAHit" time="0" />
+</sfx>
+</takeAHit>
+</attacks>
+</crouched>
+<crouchedBlock>
+<animation path="crouched_block" duration=".16">
+<frame x="0" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="280" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="560" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="840" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1120" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1400" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1680" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="0" y="405" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="280" y="405" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="560" y="405" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+</animation>
+<attacks>
+<takeAHit>
+<animation path="crouched_block_stun" duration=".12">
+<frame x="0" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="280" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="560" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="840" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1120" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1400" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="1680" y="0" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="0" y="405" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="280" y="405" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+<frame x="560" y="405" width="276" height="401" bodyX="41.3" bodyY="37.5" bodyWidth="174.4" bodyHeight="363.7" />
+</animation>
+<sfx>
+<soundeffect name="block" time="0" />
+</sfx>
+</takeAHit>
+</attacks>
+</crouchedBlock>
+<falling>
+<animation path="falling" duration="0.3">
+<frame x="0" y="0" width="542" height="491" bodyX="0" bodyY="0" bodyWidth="243.7" bodyHeight="466.9" />
+<frame x="546" y="0" width="542" height="491" bodyX="3.7" bodyY="5.6" bodyWidth="249.4" bodyHeight="461.2" />
+<frame x="1092" y="0" width="542" height="491" bodyX="7.5" bodyY="9.4" bodyWidth="255" bodyHeight="457.5" />
+<frame x="1638" y="0" width="542" height="491" bodyX="7.5" bodyY="15" bodyWidth="260.6" bodyHeight="451.8" />
+<frame x="2184" y="0" width="542" height="491" bodyX="11.3" bodyY="22.5" bodyWidth="266.2" bodyHeight="444.4" />
+<frame x="2730" y="0" width="542" height="491" bodyX="11.3" bodyY="30" bodyWidth="271.8" bodyHeight="436.9" />
+<frame x="3276" y="0" width="542" height="491" bodyX="15" bodyY="45" bodyWidth="277.5" bodyHeight="421.9" />
+<frame x="0" y="495" width="542" height="491" bodyX="18.7" bodyY="56.2" bodyWidth="283.1" bodyHeight="410.6" />
+<frame x="546" y="495" width="542" height="491" bodyX="22.5" bodyY="67.5" bodyWidth="288.7" bodyHeight="399.4" />
+<frame x="1092" y="495" width="542" height="491" bodyX="22.5" bodyY="82.5" bodyWidth="294.4" bodyHeight="384.4" />
+<frame x="1638" y="495" width="542" height="491" bodyX="26.2" bodyY="93.7" bodyWidth="300" bodyHeight="373.1" />
+<frame x="2184" y="495" width="542" height="491" bodyX="26.2" bodyY="108.8" bodyWidth="305.6" bodyHeight="358.1" />
+<frame x="2730" y="495" width="542" height="491" bodyX="30" bodyY="123.7" bodyWidth="311.2" bodyHeight="343.1" />
+<frame x="3276" y="495" width="542" height="491" bodyX="30" bodyY="138.7" bodyWidth="316.9" bodyHeight="330" />
+<frame x="0" y="990" width="542" height="491" bodyX="33.8" bodyY="153.8" bodyWidth="322.5" bodyHeight="315" />
+<frame x="546" y="990" width="542" height="491" bodyX="33.8" bodyY="168.7" bodyWidth="328.1" bodyHeight="300" />
+<frame x="1092" y="990" width="542" height="491" bodyX="41.2" bodyY="181.9" bodyWidth="333.7" bodyHeight="286.9" />
+<frame x="1638" y="990" width="542" height="491" bodyX="41.2" bodyY="191.2" bodyWidth="339.4" bodyHeight="277.5" />
+<frame x="2184" y="990" width="542" height="491" bodyX="45" bodyY="200.6" bodyWidth="345" bodyHeight="268.1" />
+<frame x="2730" y="990" width="542" height="491" bodyX="45" bodyY="211.9" bodyWidth="350.6" bodyHeight="256.9" />
+<frame x="3276" y="990" width="542" height="491" bodyX="48.8" bodyY="221.3" bodyWidth="356.2" bodyHeight="247.5" />
+<frame x="0" y="1485" width="542" height="491" bodyX="48.8" bodyY="232.5" bodyWidth="361.8" bodyHeight="236.2" />
+<frame x="546" y="1485" width="542" height="491" bodyX="52.5" bodyY="241.9" bodyWidth="367.5" bodyHeight="226.9" />
+<frame x="1092" y="1485" width="542" height="491" bodyX="52.5" bodyY="253.1" bodyWidth="373.1" bodyHeight="215.6" />
+<frame x="1638" y="1485" width="542" height="491" bodyX="60" bodyY="262.5" bodyWidth="378.7" bodyHeight="206.2" />
+<frame x="2184" y="1485" width="542" height="491" bodyX="60" bodyY="273.8" bodyWidth="384.3" bodyHeight="196.9" />
+<frame x="2730" y="1485" width="542" height="491" bodyX="60" bodyY="283.1" bodyWidth="390" bodyHeight="187.5" />
+<frame x="3276" y="1485" width="542" height="491" bodyX="67.5" bodyY="292.5" bodyWidth="395.6" bodyHeight="176.3" />
+<frame x="0" y="1980" width="542" height="491" bodyX="67.5" bodyY="303.7" bodyWidth="401.2" bodyHeight="165" />
+<frame x="546" y="1980" width="542" height="491" bodyX="67.5" bodyY="313.1" bodyWidth="406.9" bodyHeight="155.6" />
+<frame x="1092" y="1980" width="542" height="491" bodyX="75" bodyY="322.5" bodyWidth="412.4" bodyHeight="144.4" />
+<frame x="1638" y="1980" width="542" height="491" bodyX="75" bodyY="330" bodyWidth="418.1" bodyHeight="136.9" />
+<frame x="2184" y="1980" width="542" height="491" bodyX="75" bodyY="337.5" bodyWidth="423.7" bodyHeight="129.4" />
+<frame x="2730" y="1980" width="542" height="491" bodyX="78.7" bodyY="345" bodyWidth="429.4" bodyHeight="120" />
+<frame x="3276" y="1980" width="542" height="491" bodyX="78.7" bodyY="348.7" bodyWidth="435" bodyHeight="114.4" />
+<frame x="0" y="2475" width="542" height="491" bodyX="78.7" bodyY="352.5" bodyWidth="444.4" bodyHeight="110.6" />
+</animation>
+</falling>
+<ko>
+<animation path="ko" duration="1">
+<frame x="0" y="0" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="467" y="0" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="934" y="0" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1401" y="0" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1868" y="0" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2335" y="0" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2802" y="0" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="3269" y="0" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="0" y="212" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="467" y="212" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="934" y="212" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1401" y="212" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1868" y="212" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2335" y="212" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2802" y="212" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="3269" y="212" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="0" y="424" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="467" y="424" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="934" y="424" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1401" y="424" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1868" y="424" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2335" y="424" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2802" y="424" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="3269" y="424" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="0" y="636" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="467" y="636" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="934" y="636" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1401" y="636" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1868" y="636" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2335" y="636" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2802" y="636" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="3269" y="636" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="0" y="848" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="467" y="848" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="934" y="848" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1401" y="848" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1868" y="848" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2335" y="848" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2802" y="848" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="3269" y="848" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="0" y="1060" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="467" y="1060" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="934" y="1060" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1401" y="1060" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1868" y="1060" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2335" y="1060" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2802" y="1060" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="3269" y="1060" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="0" y="1272" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="467" y="1272" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="934" y="1272" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1401" y="1272" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1868" y="1272" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2335" y="1272" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="2802" y="1272" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="3269" y="1272" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="0" y="1484" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="467" y="1484" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="934" y="1484" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+<frame x="1401" y="1484" width="463" height="208" bodyX="0" bodyY="69.4" bodyWidth="444.3" bodyHeight="110.6" />
+</animation>
+</ko>
+</data>
+</main>
